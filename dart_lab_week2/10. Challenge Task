@@ -1,0 +1,17 @@
+// Fungsi untuk menghitung luas persegi panjang
+int calculateArea(int length, int width) {
+  return length * width;
+}
+
+void main() {
+  int p = 10; // Panjang
+  int l = 5;  // Lebar
+
+  // Memanggil fungsi dan menyimpan hasilnya
+  int area = calculateArea(p, l);
+
+  print("--- Rectangle Area Calculator ---");
+  print("Panjang: $p, Lebar: $l");
+  print("Rumus: Panjang x Lebar");
+  print("Hasil Luas: $area");
+}

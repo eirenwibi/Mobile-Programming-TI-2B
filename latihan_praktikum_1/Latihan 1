@@ -1,0 +1,36 @@
+void main() {
+  // 1. Menentukan variabel dengan tipe data yang tepat
+  String nama = "Electra Seafood";
+  int tahun = 2023;
+  String pemilik = "Mbok Yem";
+  String alamat = "JL. Prof. Soedarto, SH, Tembalang";
+  bool status = true; // true untuk Buka
+
+  // Menggunakan List of Maps untuk daftar makanan dan minuman
+  List<Map<String, dynamic>> daftarMakanan = [
+    {"nama": "Kepiting Rebus", "harga": 40000},
+    {"nama": "Nasi Goreng", "harga": 20000},
+    {"nama": "Udang Asam Manis", "harga": 50000},
+    {"nama": "Sate Cumi", "harga": 30000},
+  ];
+
+  List<Map<String, dynamic>> daftarMinuman = [
+    {"nama": "Es Jeruk", "harga": 5000},
+    {"nama": "Es Teh", "harga": 2000},
+    {"nama": "Es Jus", "harga": 6000},
+  ];
+
+  // 2. Menggabungkan semuanya dalam satu Map besar (seperti di hasil running)
+  Map<String, dynamic> restoran = {
+    "nama": nama,
+    "tahun": tahun,
+    "pemilik": pemilik,
+    "alamat": alamat,
+    "status": status,
+    "daftarMakanan": daftarMakanan,
+    "daftarMinuman": daftarMinuman,
+  };
+
+  // 3. Mencetak data restoran
+  print(restoran);
+}

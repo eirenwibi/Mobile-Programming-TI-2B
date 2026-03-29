@@ -1,0 +1,13 @@
+void main() {
+  int angkaBulat = 10;
+  double angkaDesimal = 10.5;
+  String teks = "Halo Polines!";
+  bool isLulus = true;
+  var random = "Bebas mau isi apa aja";
+
+  print(angkaBulat);
+  print(angkaDesimal);
+  print(teks);
+  print(isLulus);
+  print(random);
+}

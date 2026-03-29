@@ -1,0 +1,19 @@
+void main() {
+  // Deklarasi dua angka yang mau dihitung
+  double num1 = 10;
+  double num2 = 5;
+
+  // Proses perhitungan
+  double addition = num1 + num2;
+  double subtraction = num1 - num2;
+  double multiplication = num1 * num2;
+  double division = num1 / num2;
+
+  // Menampilkan hasil
+  print("--- Simple Calculator ---");
+  print("Angka 1: $num1, Angka 2: $num2");
+  print("Penjumlahan: $addition");
+  print("Pengurangan: $subtraction");
+  print("Perkalian: $multiplication");
+  print("Pembagian: $division");
+}

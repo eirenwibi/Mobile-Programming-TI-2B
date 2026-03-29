@@ -1,0 +1,10 @@
+void main() {
+  String name = "Eiren Wibi Hidayat"; 
+  String studentID = "4.33.24.1.08"; 
+  String major = "Teknologi Rekayasa Komputer";
+
+  print("--- Student Profile ---");
+  print("Name: $name");
+  print("Student ID: $studentID");
+  print("Major: $major");
+}
